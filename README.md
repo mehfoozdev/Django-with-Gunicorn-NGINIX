@@ -94,3 +94,7 @@ After completing the above steps, your Django project should be successfully dep
 - Ensure that Gunicorn is running and listening on 127.0.0.1:8000.
 - Make sure NGINX has access to the static files and the proxy is set up correctly.
 - If you encounter any issues, check the NGINX logs located in /var/log/nginx/.
+
+### Additional Commands
+- sudo service gunicorn restart
+- sudo service nginx restart
